@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="053f5ba36087401699193b74d3c073ae" Name="Diagram1">
+        <EntityTypeShape EntityType="masterModel.brand" Width="1.5" PointX="1.5" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.category" Width="1.5" PointX="1.5" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.product" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.stock" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.customer" Width="1.5" PointX="3" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.order_items" Width="1.5" PointX="7.5" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.order" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.staff" Width="1.5" PointX="3" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterModel.store" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <AssociationConnector Association="masterModel.FK__products__brand___04459E07" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK__products__catego__035179CE" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK__order_ite__produ__16644E42" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK__stocks__product___1A34DF26" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK__stocks__store_id__1940BAED" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK__orders__customer__0FB750B3" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK__order_ite__order__15702A09" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK__orders__staff_id__119F9925" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK__orders__store_id__10AB74EC" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK__staffs__manager___0CDAE408" ManuallyRouted="false" />
+        <AssociationConnector Association="masterModel.FK__staffs__store_id__0BE6BFCF" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
